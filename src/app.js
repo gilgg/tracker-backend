@@ -13,8 +13,8 @@ app.get("/api/categories/:categoryId", async (req, res) => {
 
   try {
     const events = (
-      await axios.get(`${api_url}/categories/${req.params.categoryId}`)
-    ).data.events;
+      // await axios.get(`${api_url}/categories/${req.params.categoryId}`)).data.events;
+      await axios.get(`${process.env.NASA_API}/categories/${req.params.categoryId}`)).data.events;
 
     events.forEach((event) => {
       event.geometries.forEach((geo) => {
