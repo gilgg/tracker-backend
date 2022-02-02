@@ -13,7 +13,7 @@
 Tracker lets you track live or recently happened natural events, such as: wildfires, storms, earthquakes, volcanoes, icebergs, floods.
 It marks the locations (on a map) in which these natural events occur.
 
-> **You can take a look at the backend repo [here](https://github.com/gilgg/popcorn-enhanced-backend)**
+> **You can take a look at the frontend repo [here](https://github.com/gilgg/tracker-frontend)**
 
 > **Go to [Website](https://gil-popcorn-enhanced-clone.netlify.app)**
 
@@ -33,8 +33,8 @@ It marks the locations (on a map) in which these natural events occur.
 
 # Screenshots 🎮
 
-![Tracker](https://i.ibb.co/WtYX7ZX/tracker-1.png)
+![Tracker](https://i.ibb.co/Jjxjtcn/tracker-1.png)
 
 <br />
 
-![Tracker](https://i.ibb.co/6BWYdQf/tracker-2.png)
+![Tracker](https://i.ibb.co/JRMt99K/tracker-2.png)
