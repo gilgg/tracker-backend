@@ -29,4 +29,8 @@ app.get("/api/categories/:categoryId", async (req, res) => {
   }
 });
 
+app.get("/api", async (req, res) => {
+  res.send("hi");
+});
+
 app.listen(process.env.PORT || 5000);
