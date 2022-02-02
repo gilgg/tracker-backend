@@ -15,7 +15,7 @@ It marks the locations (on a map) in which these natural events occur.
 
 > **You can take a look at the frontend repo [here](https://github.com/gilgg/tracker-frontend)**
 
-> **Go to [Website](https://gil-popcorn-enhanced-clone.netlify.app)**
+> **Go to [Website](https://tracker-c8f39.web.app/)**
 
 <br />
 
