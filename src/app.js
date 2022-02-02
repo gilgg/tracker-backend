@@ -14,7 +14,6 @@ app.get("/api/categories/:categoryId", async (req, res) => {
     const events = (
       await axios.get(
         `${process.env.NASA_API}/categories/${req.params.categoryId}`
-        // `https://eonet.gsfc.nasa.gov/api/v2.1/categories/${req.params.categoryId}`
       )
     ).data.events;
 
@@ -28,10 +27,6 @@ app.get("/api/categories/:categoryId", async (req, res) => {
   } catch (err) {
     res.status(500).send();
   }
-});
-
-app.get("/api", async (req, res) => {
-  res.send("hi");
 });
 
 app.listen(process.env.PORT || 5000);
