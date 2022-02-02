@@ -14,7 +14,6 @@ app.get("/api/categories/:categoryId", async (req, res) => {
     const events = (
       await axios.get(
         process.env.NASA_API + `/categories/${req.params.categoryId}`
-        // `https://eonet.gsfc.nasa.gov/api/v2.1/categories/${req.params.categoryId}`
       )
     ).data.events;
 
