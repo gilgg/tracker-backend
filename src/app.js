@@ -13,9 +13,7 @@ app.get("/api/categories/:categoryId", async (req, res) => {
 
   try {
     const events = (
-      await axios.get(
-        `${api_url}/categories/${req.params.categoryId}`
-      )
+      await axios.get(`${api_url}/categories/${req.params.categoryId}`)
     ).data.events;
 
     events.forEach((event) => {
@@ -28,10 +26,6 @@ app.get("/api/categories/:categoryId", async (req, res) => {
   } catch (err) {
     res.status(500).send();
   }
-});
-
-app.get("/api", async (req, res) => {
-  res.send("hi");
 });
 
 app.listen(process.env.PORT || 5000);
